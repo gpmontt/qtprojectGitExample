@@ -1,0 +1,2 @@
+# qtprojectGitExample
+EgqtprojectGit
