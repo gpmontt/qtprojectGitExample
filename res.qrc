@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Button.wav</file>
+        <file>camera.png</file>
+        <file>Camera.wav</file>
+        <file>ClickON.wav</file>
+        <file>save.png</file>
+    </qresource>
+</RCC>

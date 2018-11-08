@@ -1,0 +1,22 @@
+#ifndef MYIMAGE_H
+#define MYIMAGE_H
+
+#include <QByteArray>
+#include <QString>
+
+class MyImage
+{
+public:
+    MyImage(const QString &id ="", const QByteArray &data);
+    void setData(const QByteArray &data); //set data
+    void setId(const QString &id);  // set id
+   
+    QByteArray data() const; //methode data
+    QString id() const; // metode id
+    
+private:
+        QByteArray mData; //datos
+        QString mId;    // ht id  from constructor
+};
+
+#endif // MYIMAGE_H
